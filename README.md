@@ -1,1 +1,1 @@
-# Penny_k
+# k_wise
