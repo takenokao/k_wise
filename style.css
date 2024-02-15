@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+h1 {
+     font-family: 'Zen Maru Gothic', serif;
+     font-family: 'Rampart One', sans-serif;
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 20px;
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+p.btn-border {
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+}
+p.btn-border:hover {
+    color: #fff;
+    background: #000;
+}
+
+.video-wrap {
+    position: relative;
+    width: 100%;
+    height: 56.25vw; /* 16:9 のアスペクト比を維持 */
+    max-height: 100vh; /* 画面の高さを超えないように */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.video-wrap video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.audio_wrap {
+    position: relative;
+    display: inline-block; /* インラインブロック要素として配置 */
+}
+
+
+
+.audio_button {
+    width: 100px;
+    height: 100px;
+    /* バックグラウンド画像の設定 */
+    background-image: url('ballon00.jpg'); /* 画像のパスを指定 */
+    background-size: cover; /* 画像を要素に合わせて表示 */
+    background-position: center; /* 画像を中央に配置 */
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed; /* 画面に固定配置 */
+    top: 20px; /* 画面の上からの距離 */
+    right: 140px; /* 画面の右からの距離 */
+}
+
+
+.audio_button.stop {
+    background-image: url('break04.jpg'); /* 停止した後のアイコン */
+}
+
+
+.link_button {
+    width: 100px; /* 幅を音声ボタンと同じに設定 */
+    height: 100px; /* 高さを音声ボタンと同じに設定 */
+    background-image: url('IMG_86000.JPG'); /* リンクアイコンのパスを指定 */
+    background-size: cover; /* 画像を要素に合わせて表示 */
+    background-position: center; /* 画像を中央に配置 */
+    border-radius: 50%; /* 角を丸くする */
+    cursor: pointer;
+    position: fixed;
+    top: 20px; /* 音声ボタンと同じ位置に配置 */
+    right: 20px; /* 音声ボタンの右隣に配置 */
+}
+
+
+
+@media screen and (max-width: 480px) {
+    h1 {
+         font-family: 'Zen Maru Gothic', serif;
+         font-family: 'Rampart One', sans-serif;
+         position: absolute;
+         top: 30%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         padding: 20px;
+    }
+    p {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+    }
+    p.btn-border {
+        border: 2px solid #000;
+        border-radius: 0;
+        background: #fff;
+    }
+    p.btn-border:hover {
+        color: #fff;
+        background: #000;
+    }
+
+    .video-wrap {
+        height: 100vh;
+    }
+
+    .video-wrap video {
+        width: auto;
+        height: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+
+
+.audio_button {
+    width: 50px;
+    height: 50px;
+    /* バックグラウンド画像の設定 */
+    background-image: url('ballon00.jpg'); /* 画像のパスを指定 */
+    background-size: cover; /* 画像を要素に合わせて表示 */
+    background-position: center; /* 画像を中央に配置 */
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed; /* 画面に固定配置 */
+    top: 20px; /* 画面の上からの距離 */
+    right: 21%; /* 画面の右からの距離 */
+}
+
+
+.audio_button.stop {
+    background-image: url('break04.jpg'); /* 停止した後のアイコン */
+}
+
+
+.link_button {
+    width: 50px; /* 幅を音声ボタンと同じに設定 */
+    height: 50px; /* 高さを音声ボタンと同じに設定 */
+    background-image: url('IMG_86000.JPG'); /* リンクアイコンのパスを指定 */
+    background-size: cover; /* 画像を要素に合わせて表示 */
+    background-position: center; /* 画像を中央に配置 */
+    border-radius: 50%; /* 角を丸くする */
+    cursor: pointer;
+    position: fixed;
+    top: 20px; /* 音声ボタンと同じ位置に配置 */
+    right: 20px; /* 音声ボタンの右隣に配置 */
+}
+
+
+     
+}    
+
+
