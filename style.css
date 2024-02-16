@@ -148,7 +148,7 @@ p.btn-border:hover {
 .link_button {
     width: 50px; /* 幅を音声ボタンと同じに設定 */
     height: 50px; /* 高さを音声ボタンと同じに設定 */
-    background-image: url('IMG_86000.JPG'); /* リンクアイコンのパスを指定 */
+    background-image: url('yot_00.jpeg'); /* リンクアイコンのパスを指定 */
     background-size: cover; /* 画像を要素に合わせて表示 */
     background-position: center; /* 画像を中央に配置 */
     border-radius: 50%; /* 角を丸くする */
